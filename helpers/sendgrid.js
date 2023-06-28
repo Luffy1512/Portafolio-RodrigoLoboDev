@@ -4,8 +4,8 @@ export const sendEmail = async (subject, text) => {
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
   const msg = {
-    to: 'r.o.d.r.y-18@hotmail.com',
-    from: 'rolobo2812@gmail.com',
+    to: 'rolobo2812@gmail.com',
+    from: 'r.o.d.r.y-18@hotmail.com',
     subject,
     text,
   };

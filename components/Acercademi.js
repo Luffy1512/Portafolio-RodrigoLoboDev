@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Acercademi() {
 
-  const { frontend, backend, otrasTecnologias } = useDev()
+  const { frontend, backend, otrasTecnologias, handleChangeModal } = useDev()
 
   return (
     <>
@@ -26,8 +26,15 @@ export default function Acercademi() {
             alt='Imagen Developer'
             className='mx-auto w-full h-full object-cover'
           />
-          <p className=' italic text-base lg:text-lg text-gray-800 '>Soy Desarrollador Frontend, con más de 2 años desarrollando aplicaciones web de manera independiente. He adquirido habilidades de programación de alto nivel de cursos en línea de plataformas de renombre como ser Udemy. Aparte de ser Desarrollador Web, tambien soy Profesor Universitario en Computación en una Tecnicatura Superior en Desarrollo de Software. Cuando no estoy programando o en la institución educativa donde enseño, me gusta ir al gimnasio, jugar con mi hijo al futbool, ver series, salir a conocer lugares de interes. Actualmente solo me desempeño como Profesor en el Instituto de Enseñanza Superior La Cocha - Tucumán - Argentina.
-          </p>
+          <div>
+            <p className=' resumen italic text-base lg:text-lg text-gray-800 '> <span className='font-bold'>"¡Impulsa tu éxito en el mundo digital con un desarrollador frontend excepcional!"</span> Soy un apasionado desarrollador frontend con más de 2 años de experiencia, creando aplicaciones web de manera independiente. He perfeccionado mis habilidades de programación a través de cursos en línea de plataformas de renombre como Udemy, lo que me ha permitido alcanzar un nivel avanzado en el arte del desarrollo web. Pero eso no es todo. También tengo el privilegio de ser profesor universitario en el campo de la computación, dentro de una prestigiosa Tecnicatura Superior en Desarrollo de Software. Compartir mi conocimiento y experiencia con futuros talentos es una de las cosas que más me apasiona. Cuando no estoy inmerso en líneas de código o en el aula, disfruto de un estilo de vida equilibrado. Me encanta mantenerme en forma en el gimnasio, compartir momentos inolvidables jugando al fútbol con mi hijo, explorar nuevas series y descubrir lugares fascinantes. Si estás buscando un desarrollador frontend creativo, comprometido y con habilidades de enseñanza, estás en el lugar correcto. ¡Juntos podemos llevar tu visión digital al siguiente nivel! No dudes en contactarme para comenzar a hacer realidad tus proyectos web más ambiciosos.
+            </p>
+            <button
+              className='mt-2 font-bold text-cyan-700'
+              type='button'
+              onClick={() => handleChangeModal()}
+            >Leer Más</button>
+          </div>
         </div>
 
         <div className='mt-5'>

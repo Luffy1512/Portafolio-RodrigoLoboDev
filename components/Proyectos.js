@@ -32,9 +32,9 @@ export default function Proyectos() {
               </div>
               <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70'></div>
               <div className='absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all'>
-                <h3 className='text-3xl font-bold text-white'>{proyecto.nombre}</h3>
-                <p className='text-lg italic text-white mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>{proyecto.descripcion}</p>
-                <a href={`${proyecto.url}`} target='_blank' className='rounded-full shadow-sm shadow-black/60 bg-neutral-900 py-2 px-3.5 text-sm capitalize text-white'>Ir al Proyecto</a>
+                <h3 className='text-lg lg:text-3xl font-bold text-white'>{proyecto.nombre}</h3>
+                <p className=' text-xs lg:text-lg italic text-white mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>{proyecto.descripcion}</p>
+                <a href={`${proyecto.url}`} target='_blank' className='rounded-full shadow-sm shadow-black/60 bg-neutral-900 py-2 px-3.5 text-xs lg:text-sm capitalize text-white'>Ir al Proyecto</a>
               </div>
             </div>
           )) : (

@@ -7,6 +7,11 @@ const DevProvider = ({children}) => {
 
     const [darkMode, setDarkMode] = useState(false);
     const [datos, setDatos] = useState({})
+    const [modal, setModal] = useState(false)
+
+    const handleChangeModal = () => {
+        setModal(!modal);
+    }
 
     const handleDatos = (datos) => {
         setDatos(datos)
@@ -275,7 +280,9 @@ const DevProvider = ({children}) => {
                 backend,
                 otrasTecnologias,
                 handleDatos,
-                datos
+                datos,
+                modal,
+                handleChangeModal
             }}
         >
             {children}

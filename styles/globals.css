@@ -17,3 +17,10 @@ body.dark {
     background-color: red;
     filter: invert();
 }
+
+.resumen {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
