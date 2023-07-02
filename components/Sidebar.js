@@ -13,8 +13,8 @@ const redesSociales = [
     },
     {
         id: 3,
-        src: 'twitter',
-        link: 'https://twitter.com/?lang=es'
+        src: 'linkedin',
+        link: 'https://www.linkedin.com/in/jes%C3%BAs-luis-rodrigo-lobo-6594a81b4/'
     }
 ]
 

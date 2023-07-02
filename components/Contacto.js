@@ -33,7 +33,7 @@ export default function Contacto() {
       return
     }
     setAlerta({
-      mensaje: 'Mensaje Enviado, Correctamente', 
+      mensaje: 'Enviando mensaje... espere unos segundo', 
       color: 'green'
     })
 

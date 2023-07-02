@@ -46,7 +46,7 @@ export default function Acercademi() {
           
           <div className='mt-4 bg-white shadow-lg p-5 rounded-md'>
             <p className='text-slate-600 italic text-sm lg:text-base'>Estas son las Tecnologías que utilizo para crear aplicaciones del lado del Cliente:</p>
-            <div className='flex justify-around py-4 items-center'>
+            <div className='md:flex md:justify-around py-4 md:items-center grid grid-cols-4 gap-3'>
               {frontend.map(front => (
                 <div key={front.id}>
                   <a 
@@ -68,7 +68,7 @@ export default function Acercademi() {
 
           <div className='mt-4 bg-white shadow-lg p-5 rounded-md'>
             <p className='text-slate-600 italic text-sm lg:text-base'>Estas son las Tecnologías que utilizo para crear aplicaciones BackEnd:</p>
-            <div className='flex justify-around py-4 items-center'>
+            <div className='md:flex md:justify-around py-4 md:items-center grid grid-cols-4 gap-3'>
               {backend.map(back => (
                 <div key={back.id}>
                   <a 
@@ -90,7 +90,7 @@ export default function Acercademi() {
 
           <div className='mt-4 bg-white shadow-lg p-5 rounded-md'>
             <p className='text-slate-600 italic text-sm lg:text-base'>Otras Tecnologías y más...</p>
-            <div className='flex justify-around py-4 items-center'>
+            <div className='md:flex md:justify-around py-4 md:items-center grid grid-cols-4 gap-3'>
               {otrasTecnologias.map(tecnologia => (
                 <div key={tecnologia.id}>
                   <a 
