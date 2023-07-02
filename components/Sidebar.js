@@ -20,6 +20,7 @@ const redesSociales = [
 
 
 export default function Sidebar() {
+    
   return (
     <div className="lg:w-32 flex justify-between lg:block">
         <a href="/" className="nuxt-link-exact-active nuxt-link-active">

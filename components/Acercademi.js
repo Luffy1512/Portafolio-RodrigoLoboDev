@@ -90,7 +90,7 @@ export default function Acercademi() {
 
           <div className='mt-4 bg-white shadow-lg p-5 rounded-md'>
             <p className='text-slate-600 italic text-sm lg:text-base'>Otras Tecnologías y más...</p>
-            <div className='md:flex md:justify-around py-4 md:items-center grid grid-cols-4 gap-3'>
+            <div className='md:flex md:justify-around py-4 md:items-center grid grid-cols-4 gap-3 '>
               {otrasTecnologias.map(tecnologia => (
                 <div key={tecnologia.id}>
                   <a 
