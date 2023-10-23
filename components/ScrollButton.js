@@ -31,13 +31,14 @@ const ScrollButton = () => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed right-4 bottom-4 z-50 p-2 bg-gray-400 text-white rounded-full shadow-md hover:bg-gray-500 transition-colors duration-300"
+          className="fixed right-4 bottom-4 z-50 p-2 bg-gray-700 rounded-full shadow-md hover:bg-gray-900 transition-colors duration-300"
         >
           <Image 
             width={25}
             height={25}
             src={'/img/arriba.png'}
             alt='Imagen Arriba'
+            className=' invert'
           />
         </button>
       )}

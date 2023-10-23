@@ -1,0 +1,51 @@
+{
+    "index": {
+        "p1": "Hi I am,",
+        "p2": "Am:",
+        "p3": "I am passionate about technology, I started learning programming skills from the Udemy Platform courses."
+    },
+    "acercademi": {
+        "h2": "About Me",
+        "p1": "Read about me",
+        "span": "¡Boost your success in the digital world with an exceptional Full Stack Web Developer!",
+        "p2": "I am a passionate Full Stack Web Developer with over 3 years of experience, specializing in web development using a wide range of technologies, including JavaScript (React, Next.js, React Router DOM), PHP, Node .js, Git, GitHub and many other languages. During my career, I have independently built web applications, demonstrating my skills in both frontend and backend development. I have honed my skills through online courses on leading platforms such as Udemy, which has allowed me to reach an advanced level in the art of web development. In addition, I have the honor of being a University Professor in the field of Computing in a prestigious Higher Technician in Software Development. Sharing my knowledge and experience with future talents is one of the things that I am most passionate about. When I am not immersed in the world of code or in the classroom, I enjoy a balanced lifestyle. I love staying in shape in the gym, sharing unforgettable moments playing soccer with my son, explore new series and discover fascinating places. If you are looking for a creative, committed Full Stack Web Developer with teaching skills, you are in the right place. Together we can take your digital vision to the next level. Do not hesitate to contact me to start making your most ambitious web projects a reality. Let's work together to achieve your digital goals!",
+        "button": "Read More",
+        "h3": "Technologies I Use",
+        "p3": "These are the Technologies I use to create Client-side applications:",
+        "p4": "These are the Technologies I use to create BackEnd applications:",
+        "p5": "Other Technologies and more..."
+    },
+    "contacto": {
+        "h2": "Contact",
+        "p1": "Contact me",
+        "legend": "Fill out the form below:",
+        "label1": "Name:",
+        "label2": "Email:",
+        "label3": "Message:", 
+        "placeholder1": "Your name",
+        "placeholder2": "Your email",
+        "submit": "Send"
+    },
+    "footer": {
+        "p": "All Rights Reserved"
+    },
+    "modal": {
+        "h2": "About Me",
+        "span": "¡Boost your success in the digital world with an exceptional Full Stack Web Developer!",
+        "p": "I am a passionate Full Stack Web Developer with over 3 years of experience, specializing in web development using a wide range of technologies, including JavaScript (React, Next.js, React Router DOM), PHP, Node .js, Git, GitHub and many other languages. During my career, I have independently built web applications, demonstrating my skills in both frontend and backend development. I have honed my skills through online courses on leading platforms such as Udemy, which has allowed me to reach an advanced level in the art of web development. In addition, I have the honor of being a University Professor in the field of Computing in a prestigious Higher Technician in Software Development. Sharing my knowledge and experience with future talents is one of the things that I am most passionate about. When I am not immersed in the world of code or in the classroom, I enjoy a balanced lifestyle. I love staying in shape in the gym, sharing unforgettable moments playing soccer with my son, explore new series and discover fascinating places. If you are looking for a creative, committed Full Stack Web Developer with teaching skills, you are in the right place. Together we can take your digital vision to the next level. Do not hesitate to contact me to start making your most ambitious web projects a reality. Let's work together to achieve your digital goals!",
+        "button": "Close"
+    },
+    "navegacion": {
+        "modoclaro": "Clear Mode",
+        "modooscuro": "Dark Mode",
+        "acercademi": "About Me",
+        "proyectos": "Projects",
+        "contacto": "Contact"
+    },
+    "proyectos": {
+        "h2": "My Projects",
+        "p1": "Some of my projects",
+        "p2": "You don't have any Added Projects yet",
+        "a": "Go to Project"
+    }
+}

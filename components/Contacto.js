@@ -12,7 +12,7 @@ export default function Contacto() {
     color: ''
   })
 
-  const { handleDatos, datos } = useDev()
+  const { handleDatos, datos, t } = useDev()
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -60,10 +60,10 @@ export default function Contacto() {
   }
 
   return (
-    <div id='contacto' className='mt-20'>
+    <div id='contacto' className=' mt-5 lg:mt-16'>
         <div className="space-y-1">
-          <h2 className='font-black text-xl lg:text-2xl text-gray-600 dark:text-gray-300'>Contacto</h2>
-          <p className=' text-gray-400 dark:text-gray-200'>Contactame</p>
+          <h2 className='font-black text-xl lg:text-2xl text-gray-600 dark:text-gray-300'>{t("contacto.h2")}</h2>
+          <p className=' text-gray-400 dark:text-gray-200'>{t("contacto.p1")}</p>
           <div className='flex'>
               <div className=' bg-orange-600 rounded-full py-1 px-1 '></div>
               <div className=' bg-orange-600 pt-1 lg:w-1/6 w-2/6 rounded-lg '></div>
@@ -75,18 +75,18 @@ export default function Contacto() {
           onSubmit={handleSubmit}
         >
           <fieldset className=' border-solid border-2 border-slate-700 p-3 dark:border-slate-200'>
-            <legend className=' italic px-1 dark:text-gray-100'>Llena el formulario a continuación:</legend>
+            <legend className=' italic px-1 dark:text-gray-100'>{t("contacto.legend")}</legend>
               <div className=' max-w-[90%] lg:w-96 mx-auto'>
                 <div className='flex flex-col mb-3'>
-                  <label htmlFor='nombre' className=' uppercase font-bold text-gray-600 dark:text-gray-200 mb-1'>Nombre:</label>
-                  <input id='nombre' type='text' placeholder='Tu nombre' className=' text-gray-500 dark:text-gray-700 px-2 border py-1 rounded-sm' name="nombre" value={nombre} onChange={e => setNombre(e.target.value)}/>
+                  <label htmlFor='nombre' className=' uppercase font-bold text-gray-600 dark:text-gray-200 mb-1'>{t("contacto.label1")}</label>
+                  <input id='nombre' type='text' placeholder={t("contacto.placeholder1")} className=' text-gray-500 dark:text-gray-700 px-2 border py-1 rounded-sm' name="nombre" value={nombre} onChange={e => setNombre(e.target.value)}/>
                 </div>
                 <div className='flex flex-col mb-3'>
-                  <label htmlFor='email' className=' uppercase font-bold text-gray-600 dark:text-gray-200 mb-1'>Email:</label>
-                  <input id='email' type='email' placeholder='Tu email' className='text-gray-500 dark:text-gray-700 px-2 border py-1 rounded-sm w-full' name="email" value={email} onChange={e => setEmail(e.target.value)}/>
+                  <label htmlFor='email' className=' uppercase font-bold text-gray-600 dark:text-gray-200 mb-1'>{t("contacto.label2")}</label>
+                  <input id='email' type='email' placeholder={t("contacto.placeholder2")} className='text-gray-500 dark:text-gray-700 px-2 border py-1 rounded-sm w-full' name="email" value={email} onChange={e => setEmail(e.target.value)}/>
                 </div>
                 <div className='flex flex-col'>
-                  <label htmlFor='mensaje' className=' uppercase font-bold text-gray-600 dark:text-gray-200'>Mensaje:</label>
+                  <label htmlFor='mensaje' className=' uppercase font-bold text-gray-600 dark:text-gray-200'>{t("contacto.label3")}</label>
                   <textarea
                     rows={10} 
                     className='text-gray-500 dark:text-gray-700 px-2 border py-1 rounded-sm'
@@ -101,7 +101,7 @@ export default function Contacto() {
                 )}
                 <input 
                   type='submit'
-                  value={'Enviar'}
+                  value={t("contacto.submit")}
                   className='mt-5 w-full bg-cyan-700 py-1 uppercase font-bold text-xl text-white rounded-md hover:bg-cyan-900 transition-all cursor-pointer'
                 />
               </div>

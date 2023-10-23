@@ -1,5 +1,6 @@
 import { createContext } from 'react'
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next'
 
 const DevContext = createContext()
 
@@ -8,6 +9,8 @@ const DevProvider = ({children}) => {
     const [darkMode, setDarkMode] = useState(false);
     const [datos, setDatos] = useState({})
     const [modal, setModal] = useState(false)
+
+    const [ t, i18n ] = useTranslation("global");
 
     const handleChangeModal = () => {
         setModal(!modal);
@@ -282,7 +285,9 @@ const DevProvider = ({children}) => {
                 handleDatos,
                 datos,
                 modal,
-                handleChangeModal
+                handleChangeModal,
+                t,
+                i18n
             }}
         >
             {children}

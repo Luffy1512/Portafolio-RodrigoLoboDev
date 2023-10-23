@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 export default function Nav() {
 
-    const { darkMode, toggleDarkMode } = useDev();
+    const { darkMode, toggleDarkMode, t } = useDev();
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -65,7 +65,7 @@ export default function Nav() {
                             src={`${darkMode ? '/img/sun.svg' : '/img/moon.svg'}`}
                             alt="Imagen Dark Mode"
                         />
-                        {darkMode ? 'Modo Claro' : 'Modo Oscuro'}
+                        {darkMode ? t("navegacion.modoclaro") : t("navegacion.modooscuro")}
                     </button>
                 </div>
                 <div className="lg:w-1/2 flex flex-col lg:flex-row justify-center gap-4">
@@ -79,7 +79,7 @@ export default function Nav() {
                             src={'/img/acercademi.svg'}
                             alt="Imagen Acerca de Mi"
                         />
-                        Acerca de Mi
+                        {t("navegacion.acercademi")}
                     </a>
                     <a
                         className="enlace flex hover:-rotate-6 p-1 hover:shadow-xl transition-all hover:bg-red-400 hover:text-white dark:invert"
@@ -91,7 +91,7 @@ export default function Nav() {
                             src={'/img/proyectos.svg'}
                             alt="Imagen Proyectos"
                         />
-                        Proyectos
+                        {t("navegacion.proyectos")}
                     </a>
                     <a
                         className="enlace flex hover:-rotate-6 p-1 hover:shadow-xl transition-all hover:bg-red-400 hover:text-white dark:invert"
@@ -103,7 +103,7 @@ export default function Nav() {
                             src={'/img/contacto.svg'}
                             alt="Imagen Contacto"
                         />
-                        Contacto
+                        {t("navegacion.contacto")}
                     </a>
                 </div>
             </nav>

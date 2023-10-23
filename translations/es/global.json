@@ -1,0 +1,51 @@
+{
+    "index": {
+        "p1": "Hola soy,",
+        "p2": "Soy:",
+        "p3": "Soy un apasionado de la tecnología, inicie aprendiendo habilidades en programación de los cursos de la Plataforma Udemy."
+    },
+    "acercademi": {
+        "h2": "Acerca de Mi",
+        "p1": "Lee acerca de mi",
+        "span": "¡Impulsa tu éxito en el mundo digital con un Desarrollador Web Full Stack excepcional!",
+        "p": "Soy un apasionado Desarrollador Web Full Stack con una experiencia de más de 3 años, especializado en el desarrollo web utilizando una amplia gama de tecnologías, incluyendo JavaScript (React, Next.js, React Router DOM), PHP, Node.js, Git, GitHub y muchos otros lenguajes. Durante mi carrera, he creado aplicaciones web de manera independiente, demostrando mis habilidades en el desarrollo tanto del frontend como del backend. He perfeccionado mis habilidades a través de cursos en línea en plataformas líderes como Udemy, lo que me ha permitido alcanzar un nivel avanzado en el arte del desarrollo web. Además, tengo el honor de ser Profesor Universitario en el campo de la Computación en una prestigiosa Tecnicatura Superior en Desarrollo de Software. Compartir mi conocimiento y experiencia con futuros talentos es una de las cosas que más me apasiona. Cuando no estoy inmerso en el mundo del código o en el aula, disfruto de un estilo de vida equilibrado. Me encanta mantenerme en forma en el gimnasio, compartir momentos inolvidables jugando al fútbol con mi hijo, explorar nuevas series y descubrir lugares fascinantes. Si estás buscando un Desarrollador Web Full Stack creativo, comprometido y con habilidades de enseñanza, estás en el lugar correcto. Juntos podemos llevar tu visión digital al siguiente nivel. No dudes en contactarme para comenzar a hacer realidad tus proyectos web más ambiciosos. ¡Trabajemos juntos para alcanzar tus metas digitales!",
+        "button": "Leer Más",
+        "h3": "Tecnologías Que Uso",
+        "p3": "Estas son las Tecnologías que utilizo para crear aplicaciones del lado del Cliente:",
+        "p4": "Estas son las Tecnologías que utilizo para crear aplicaciones BackEnd:",
+        "p5": "Otras Tecnologías y más..."
+    },
+    "contacto": {
+        "h2": "Contacto",
+        "p1": "Contactame",
+        "legend": "Llena el formulario a continuación:",
+        "label1": "Nombre:",
+        "label2": "Email:",
+        "label3": "Mensaje:",
+        "placeholder1": "Tu nombre",
+        "placeholder2": "Tu email",
+        "submit": "Enviar"
+    },
+    "footer": {
+        "p": "Todos los Derechos Reservados "
+    },
+    "modal": {
+        "h2": "Sobre Mi",
+        "span": "¡Impulsa tu éxito en el mundo digital con un Desarrollador Web Full Stack excepcional!",
+        "p": "Soy un apasionado Desarrollador Web Full Stack con una experiencia de más de 3 años, especializado en el desarrollo web utilizando una amplia gama de tecnologías, incluyendo JavaScript (React, Next.js, React Router DOM), PHP, Node.js, Git, GitHub y muchos otros lenguajes. Durante mi carrera, he creado aplicaciones web de manera independiente, demostrando mis habilidades en el desarrollo tanto del frontend como del backend. He perfeccionado mis habilidades a través de cursos en línea en plataformas líderes como Udemy, lo que me ha permitido alcanzar un nivel avanzado en el arte del desarrollo web. Además, tengo el honor de ser Profesor Universitario en el campo de la Computación en una prestigiosa Tecnicatura Superior en Desarrollo de Software. Compartir mi conocimiento y experiencia con futuros talentos es una de las cosas que más me apasiona. Cuando no estoy inmerso en el mundo del código o en el aula, disfruto de un estilo de vida equilibrado. Me encanta mantenerme en forma en el gimnasio, compartir momentos inolvidables jugando al fútbol con mi hijo, explorar nuevas series y descubrir lugares fascinantes. Si estás buscando un Desarrollador Web Full Stack creativo, comprometido y con habilidades de enseñanza, estás en el lugar correcto. Juntos podemos llevar tu visión digital al siguiente nivel. No dudes en contactarme para comenzar a hacer realidad tus proyectos web más ambiciosos. ¡Trabajemos juntos para alcanzar tus metas digitales!",
+        "button": "Cerrar"
+    },
+    "navegacion": {
+        "modoclaro": "Modo Claro",
+        "modooscuro": "Modo Oscuro",
+        "acercademi": "Acerca de Mi",
+        "proyectos": "Proyectos",
+        "contacto": "Contacto"
+    },
+    "proyectos": {
+        "h2": "Mis Proyectos",
+        "p1": "Algunos de mis proyectos",
+        "p2": "Aun no Tienes Proyectos Agregados",
+        "a": "Ir al Proyecto"
+    }
+}

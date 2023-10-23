@@ -22,7 +22,7 @@ export default function LayoutPrincipal({children, title = '', description = ''}
 
     ReactModal.setAppElement('#__next');
 
-    const {modal, handleChangeModal} = useDev()
+    const {modal, handleChangeModal, t} = useDev()
 
     return (
       <>
@@ -53,7 +53,7 @@ export default function LayoutPrincipal({children, title = '', description = ''}
                         alt="Imagen Logo"
                         className="dark:invert"
                     />
-                    <p className=" text-gray-700 dark:text-gray-200 font-bold text-xl">&copy; {new Date().getFullYear()} Todos los Derechos Reservados </p>
+                    <p className=" text-gray-700 dark:text-gray-200 font-bold text-xl">&copy; {new Date().getFullYear() + " " + t("footer.p")}</p>
                 </div>
                 <div className="flex mt-2">
                     <div className=" bg-red-700 w-1/4 py-[0.35rem] "></div>
@@ -71,10 +71,10 @@ export default function LayoutPrincipal({children, title = '', description = ''}
               style={customStyles}
               contentLabel="Example Modal"
             >
-              <h2 className="text-center font-black text-sm lg:text-2xl">Sobre Mi</h2>
-              <p className=' italic text-xs lg:text-lg text-gray-800 '> <span className='font-bold'>"¡Impulsa tu éxito en el mundo digital con un desarrollador frontend excepcional!"</span> Soy un apasionado desarrollador frontend con más de 2 años de experiencia, creando aplicaciones web de manera independiente. He perfeccionado mis habilidades de programación a través de cursos en línea de plataformas de renombre como Udemy, lo que me ha permitido alcanzar un nivel avanzado en el arte del desarrollo web. Pero eso no es todo. También tengo el privilegio de ser profesor universitario en el campo de la computación, dentro de una prestigiosa Tecnicatura Superior en Desarrollo de Software. Compartir mi conocimiento y experiencia con futuros talentos es una de las cosas que más me apasiona. Cuando no estoy inmerso en líneas de código o en el aula, disfruto de un estilo de vida equilibrado. Me encanta mantenerme en forma en el gimnasio, compartir momentos inolvidables jugando al fútbol con mi hijo, explorar nuevas series y descubrir lugares fascinantes. Si estás buscando un desarrollador frontend creativo, comprometido y con habilidades de enseñanza, estás en el lugar correcto. ¡Juntos podemos llevar tu visión digital al siguiente nivel! No dudes en contactarme para comenzar a hacer realidad tus proyectos web más ambiciosos.</p>
+              <h2 className="text-center font-black text-sm lg:text-2xl">{t("modal.h2")}</h2>
+              <p className=' italic text-xs lg:text-lg text-gray-800 '> <span className='font-bold'>"{t("modal.span")}"</span> {t("modal.p")}</p>
               <div className="flex justify-end">
-                <button className=" mt-2 lg:mt-5 px-3 bg-cyan-700 py-1 uppercase font-bold text-xs lg:text-lg text-white rounded-md hover:bg-cyan-900 transition-all cursor-pointer" onClick={handleChangeModal}>Cerrar</button>
+                <button className=" mt-2 lg:mt-5 px-3 bg-cyan-700 py-1 uppercase font-bold text-xs lg:text-lg text-white rounded-md hover:bg-cyan-900 transition-all cursor-pointer" onClick={handleChangeModal}>{t("modal.button")}</button>
               </div>
             </ReactModal>
           )}
